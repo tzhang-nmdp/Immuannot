@@ -27,7 +27,7 @@ usage()
 
 PARSED_ARGUMENTS=$(getopt -a -n immuannot \
     -o c:r:o:t: \
-    --long contig:,refdir:,outpref:,thread:,overlaprate:,diff:\
+    --long contig:,refdir:,outpref:,thread:,overlap:,diff:\
     -- "$@")
 VALID_ARGUMENTS=$?
 if [ "$VALID_ARGUMENTS" != "0" ]; then
