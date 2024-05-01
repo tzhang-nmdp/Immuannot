@@ -19,7 +19,7 @@ usage()
                            [ -r | --refdir  references                          ] 
                            [ -o | --outpref output prefix (optional)            ] 
                            [ -t | --thread  num of thread (optional, default 3) ] 
-                           [ --overlaprate  OVERLAP (optional, default 0.9)     ] 
+                           [ --overlap  OVERLAP (optional, default 0.9)     ] 
                            [ --diff         DIFF (optional, default 0.03)       ] 
                            "
   exit 2
